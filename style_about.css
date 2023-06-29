@@ -122,8 +122,14 @@ body {
   .nav-list a {
     font-size: x-large;
     color: #ec5242;
-    font-family: "LatoWebBlack",sans-serif;
+    font-family: "LatoWebBlack", sans-serif;
     text-decoration: none;
+  }
+
+  footer img {
+    width: 20%;
+    height: 20%;
+    margin-left: 20px;
   }
 
   .nav-list img {
@@ -143,7 +149,7 @@ body {
   }
 
   .header-h1 {
-    font-family: "LatoWebBlack",sans-serif;
+    font-family: "LatoWebBlack", sans-serif;
     margin-top: 0;
     color: #ec5242;
   }
@@ -157,7 +163,7 @@ body {
     text-align: center;
     padding-bottom: 10px;
     background-color: #d3d3d363;
-    font-family: "LatoWebThin",sans-serif;
+    font-family: "LatoWebThin", sans-serif;
     font-weight: bold;
     width: 90%;
     height: auto;
@@ -167,7 +173,7 @@ body {
     padding-left: 5%;
     text-align: center;
     padding-bottom: 10px;
-    font-family: "LatoWebThin",sans-serif;
+    font-family: "LatoWebThin", sans-serif;
     font-weight: bold;
     width: 90%;
     height: auto;
@@ -343,6 +349,10 @@ body {
     background-color: #272a31;
   }
 
+  main h2 {
+    margin-bottom: 10px;
+  }
+
   .partners-container h2 {
     color: white;
     padding-top: 2rem;
@@ -378,11 +388,7 @@ body {
     margin-top: 20px;
   }
 
-  footer img {
-    width: 20%;
-    height: 20%;
-    margin-left: 20px;
-  }
+  
 
   footer div {
     text-align: left;
@@ -391,28 +397,24 @@ body {
     margin-left: 10px;
   }
 
+  main h3 {
+    font-family: "LatoWebThin", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+  }
+
   footer div h3 {
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     font-size: small;
     margin-bottom: 10px;
     margin-top: 15px;
   }
 
   footer div h4 {
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     font-size: small;
     font-weight: 900;
     margin-top: 0;
-  }
-
-  main h2 {
-    margin-bottom: 10px;
-  }
-
-  main h3 {
-    font-family: "LatoWebThin";
-    font-weight: bold;
-    font-size: medium;
   }
 
   .nav-list-desktop {
@@ -440,7 +442,7 @@ body {
     height: min-content;
     align-items: center;
     place-content: flex-end;
-    height: 30px;
+    /* height: 30px; */
   }
 
   .upperpart img {
@@ -450,7 +452,7 @@ body {
 
   .upperpart h4 {
     color: white;
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     font-size: small;
     margin-right: 25px;
   }
@@ -510,8 +512,8 @@ body {
 
   .menu-links-project a {
     color: #ec5242;
-    font-family: "LatoWebThin";
-    vertical-align: -webkit-baseline-middle;
+    font-family: "LatoWebThin", sans-serif;
+    vertical-align: baseline;
     padding-right: 0;
     font-size: medium;
     font-weight: bolder;
@@ -521,7 +523,7 @@ body {
     color: #d72311;
     padding-top: 100px;
     padding-left: 15%;
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     font-size: xx-large;
     font-weight: bold;
   }
@@ -529,7 +531,7 @@ body {
   .header-h1-title {
     color: #d72311;
     padding-left: 15%;
-    font-family: "LatoWebBlack";
+    font-family: "LatoWebBlack", sans-serif;
     font-size: xxx-large;
   }
 
@@ -564,7 +566,7 @@ body {
   }
 
   .main h3 {
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     font-weight: bold;
     font-size: medium;
   }
@@ -588,14 +590,14 @@ body {
   }
 
   .header-h2 {
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     padding-top: 35px;
     margin-bottom: 0;
     color: white;
   }
 
   .header-h1 {
-    font-family: "LatoWebBlack";
+    font-family: "LatoWebBlack", sans-serif;
     margin-top: 0;
     color: white;
   }
@@ -658,7 +660,7 @@ body {
 
   footer h3 {
     color: white;
-    font-family: "LatoWeb" !important;
+    font-family: "LatoWeb", sans-serif !important;
     font-weight: 500 !important;
     margin-bottom: 5px;
   }
@@ -666,7 +668,7 @@ body {
   footer h4 {
     margin-top: 5px;
     color: white;
-    font-family: "LatoWeb";
+    font-family: "LatoWeb", sans-serif;
     font-weight: 500;
   }
 
