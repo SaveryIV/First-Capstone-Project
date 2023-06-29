@@ -388,8 +388,6 @@ body {
     margin-top: 20px;
   }
 
-  
-
   footer div {
     text-align: left;
     margin-right: 22px;
@@ -442,12 +440,24 @@ body {
     height: min-content;
     align-items: center;
     place-content: flex-end;
-    /* height: 30px; */
+  }
+
+  footer img {
+    padding-left: 150px;
+    width: 60px;
+    height: 60px;
   }
 
   .upperpart img {
     width: 30px;
     padding-right: 20px;
+  }
+
+  footer h4 {
+    margin-top: 5px;
+    color: white;
+    font-family: "LatoWeb", sans-serif;
+    font-weight: 500;
   }
 
   .upperpart h4 {
@@ -539,11 +549,10 @@ body {
     width: 50%;
     text-align: center;
     background-color: white;
-    margin-left: 15%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    border: 3px solid  #272a315d;
+    border: 3px solid #272a315d;
     margin: auto;
   }
 
@@ -551,6 +560,28 @@ body {
     text-align: center;
     margin-bottom: 150px;
     margin-top: 40px;
+  }
+
+  footer {
+    margin-top: 100px;
+    background-color: #272a31;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+
+  footer div {
+    margin-left: 20px;
+    align-content: center;
+    text-align: left !important;
+  }
+
+  footer h3 {
+    color: white;
+    font-family: "LatoWeb", sans-serif !important;
+    font-weight: 500 !important;
+    margin-bottom: 5px;
   }
 
   .main {
@@ -635,41 +666,6 @@ body {
     flex-direction: row;
     margin-left: 30px;
     width: 90%;
-  }
-
-  footer {
-    margin-top: 100px;
-    background-color: #272a31;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-  }
-
-  footer img {
-    padding-left: 150px;
-    width: 60px;
-    height: 60px;
-  }
-
-  footer div {
-    margin-left: 20px;
-    align-content: center;
-    text-align: left !important;
-  }
-
-  footer h3 {
-    color: white;
-    font-family: "LatoWeb" !important;
-    font-weight: 500 !important;
-    margin-bottom: 5px;
-  }
-
-  footer h4 {
-    margin-top: 5px;
-    color: white;
-    font-family: "LatoWeb";
-    font-weight: 500;
   }
 
   hr {
