@@ -217,24 +217,6 @@ body {
     padding-left: 10px;
   }
 
-  .nav-list li {
-    padding-left: 20px;
-    padding-top: 40px;
-  }
-
-  .nav-list a {
-    font-size: x-large;
-    color: #ec5242;
-    font-family: "LatoWebBlack";
-    text-decoration: none;
-  }
-
-  .nav-list img {
-    width: 40px;
-    padding-top: 10px;
-    padding-left: 82%;
-  }
-
   .navbar-about {
     padding-right: 85%;
   }
@@ -245,44 +227,35 @@ body {
     margin-left: 6%;
   }
 
-  .logo {
-    display: none;
-  }
-
-  .hamburger {
-    padding-top: 10px;
-    width: 30px;
-  }
-
   .header-h2-title {
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     padding-top: 35px;
     margin-bottom: 0;
     color: #ec5242;
   }
 
   .header-h1-title {
-    font-family: "LatoWebBlack";
+    font-family: "LatoWebBlack", sans-serif;
     margin-top: 0;
     color: #ec5242;
   }
 
   .header-h2 {
-    font-family: "LatoWebThin";
+    font-family: "LatoWebThin", sans-serif;
     padding-top: 35px;
     margin-bottom: 0;
     color: white;
   }
 
-  .header-h1 {
-    font-family: "LatoWebBlack";
+  /* .header-h1 {
+    font-family: "LatoWebBlack", sans-serif;
     margin-top: 0;
     color: white;
-  }
+  } */
 
-  .container-p {
-    text-align: -webkit-center;
-  }
+  /* .container-p {
+    text-align: center;
+  } */
 
   .emoji1-about {
     position: absolute;
@@ -326,7 +299,7 @@ body {
     transform: rotate(-23deg);
   }
 
-  .emoji6 {
+  /* .emoji6 {
     position: absolute;
     top: 27px;
     right: 249px;
@@ -364,7 +337,7 @@ body {
     width: 40px;
     transform: rotate(12deg);
     bottom: 54px;
-  }
+  } */
 
   .partners-container {
     background-color: #272a31;
