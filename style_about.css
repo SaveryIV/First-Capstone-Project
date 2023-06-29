@@ -660,7 +660,7 @@ body {
 
   footer h3 {
     color: white;
-    font-family: "LatoWeb", sans-serif !important;
+    font-family: "LatoWeb" !important;
     font-weight: 500 !important;
     margin-bottom: 5px;
   }
@@ -668,7 +668,7 @@ body {
   footer h4 {
     margin-top: 5px;
     color: white;
-    font-family: "LatoWeb", sans-serif;
+    font-family: "LatoWeb";
     font-weight: 500;
   }
 
