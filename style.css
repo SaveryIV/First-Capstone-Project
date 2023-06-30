@@ -181,8 +181,8 @@ body {
     font-family: "LatoWebThin", sans-serif;
     font-weight: bold;
     width: 90%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .header-day {

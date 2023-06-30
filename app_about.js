@@ -1,7 +1,7 @@
 const $body = document.querySelector('body');
 const $hamburger = document.querySelector('.hamburger');
 const $navList = document.querySelector('.nav-list');
-const $closeX = document.querySelector('.close-hamburger');
+const $closeX = document.querySelector('.close-hamburger-x');
 const $links = document.querySelectorAll('.menu-links');
 
 $hamburger.addEventListener('click', () => {
