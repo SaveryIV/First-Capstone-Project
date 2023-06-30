@@ -59,7 +59,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://SaveryIV.github.io)
+- [Live Demo Link](https://saveryiv.github.io/First-Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
