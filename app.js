@@ -37,6 +37,7 @@ for (let i = 0; i < performers.length; i++) {
   $artists.innerHTML += `
         <div class="speaker" ${performers[i].id}>
             <div class="${performers[i].class}">
+                <div class="grey-square"></div>
                 <img src="${performers[i].image}" alt="${`${performers[i].name}-photo`}" class="img-speaker">
             </div>
             <div class="speaker-text">

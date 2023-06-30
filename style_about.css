@@ -260,16 +260,6 @@ body {
     color: white;
   }
 
-  /* .header-h1 {
-    font-family: "LatoWebBlack", sans-serif;
-    margin-top: 0;
-    color: white;
-  } */
-
-  /* .container-p {
-    text-align: center;
-  } */
-
   .emoji1-about {
     position: absolute;
     top: 71px;
@@ -546,7 +536,7 @@ body {
   }
 
   .header-h2-title {
-    color: #d72311;
+    color: #ec5242;
     padding-top: 100px;
     font-family: "LatoWebThin", sans-serif;
     font-size: xx-large;
@@ -581,11 +571,12 @@ body {
 
   footer {
     margin-top: 100px;
-    background-color: #272a31;
+    background-color: #2e2e2e;
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    align-content: center;
   }
 
   footer div {
