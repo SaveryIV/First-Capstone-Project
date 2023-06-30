@@ -574,7 +574,7 @@ body {
     background-color: #2e2e2e;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-evenly;
     align-items: center;
     align-content: center;
   }

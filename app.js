@@ -29,6 +29,20 @@ const performers = [{
   status: 'Rapper, songwriter, record producer; The Marshall Mathers LP, Grammy winner.',
   description: 'Hailing from Detroit, Eminem overcame a troubled upbringing to become a rap sensation, known for his raw and honest storytelling.',
   image: 'sources/images/Eminem.jpg',
+}, {
+  id: 'id="avi"',
+  class: 'avicii',
+  name: 'Avicii',
+  status: 'Swedish DJ, producer, and songwriter who revolutionized electronic music.',
+  description: ' Iconic Swedish DJ and music producer whose meteoric rise to fame revolutionized the electronic dance music scene, enchanting millions with his infectious beats, emotional compositions, and transcendent live shows, forever cementing his legacy as a visionary artist.',
+  image: 'sources/images/Avicii.jpg',
+}, {
+  id: 'id="post"',
+  class: 'post',
+  name: 'Post Malone',
+  status: 'Record-breaking rapper, singer-songwriter, and genre-bending music sensation.',
+  description: ' A boundary-breaking artist who effortlessly merges rap, rock, and pop, captivating audiences with chart-topping hits and a soulful voice. His genre-defying sound and introspective lyrics have solidified his position as a visionary force in modern music.',
+  image: 'sources/images/post-malone.jpg',
 }];
 
 const $artists = document.querySelector('.container-speakers');
@@ -52,17 +66,25 @@ for (let i = 0; i < performers.length; i++) {
 const $buttonArtists = document.querySelector('.button-artists');
 const $ice = document.querySelector('#ice');
 const $em = document.querySelector('#em');
+const $avi = document.querySelector('#avi');
+const $post = document.querySelector('#post');
 $ice.style.display = 'none';
 $em.style.display = 'none';
+$avi.style.display = 'none';
+$post.style.display = 'none';
 if (window.innerWidth > 768) {
   $ice.style.display = 'flex';
   $em.style.display = 'flex';
+  $avi.style.display = 'flex';
+  $post.style.display = 'flex';
   $buttonArtists.style.display = 'none';
 }
 
 $buttonArtists.addEventListener('click', () => {
   $ice.style.display = 'flex';
   $em.style.display = 'flex';
+  $avi.style.display = 'flex';
+  $post.style.display = 'flex';
   $buttonArtists.style.display = 'none';
 });
 
