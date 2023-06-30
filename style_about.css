@@ -156,6 +156,8 @@ body {
 
   .container-p {
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .header-p {
@@ -440,6 +442,7 @@ body {
     height: min-content;
     align-items: center;
     place-content: flex-end;
+    padding-right: 5%;
   }
 
   footer img {
@@ -493,7 +496,10 @@ body {
 
   .nav-list-desktop img {
     width: 50px;
-    padding-left: 10px;
+  }
+
+  .container-logo {
+    padding-left: 15%;
   }
 
   .navbar-about {
@@ -509,6 +515,8 @@ body {
   .list-container {
     display: flex;
     align-items: center;
+    gap: 35px;
+    padding-right: 5%;
   }
 
   .menu-links-project {
@@ -518,6 +526,9 @@ body {
     margin-right: 20px;
     width: 100px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .menu-links-project a {
@@ -532,15 +543,17 @@ body {
   .header-h2-title {
     color: #d72311;
     padding-top: 100px;
-    padding-left: 15%;
     font-family: "LatoWebThin", sans-serif;
     font-size: xx-large;
+    display: flex;
+    justify-content: center;
     font-weight: bold;
   }
 
   .header-h1-title {
     color: #d72311;
-    padding-left: 15%;
+    display: flex;
+    justify-content: center;
     font-family: "LatoWebBlack", sans-serif;
     font-size: xxx-large;
   }
@@ -551,7 +564,6 @@ body {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 10px;
     border: 3px solid #272a315d;
     margin: auto;
   }

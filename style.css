@@ -109,7 +109,7 @@ body {
   }
 
   .navbar {
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   .nav-list {
@@ -169,7 +169,8 @@ body {
   }
 
   .container-p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .header-p {
@@ -180,7 +181,8 @@ body {
     font-family: "LatoWebThin", sans-serif;
     font-weight: bold;
     width: 90%;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .header-day {
@@ -232,13 +234,15 @@ body {
     font-family: "LatoWebThin", sans-serif;
     width: 82px;
     font-size: medium;
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .card h3 {
     font-family: "LatoWebThin", sans-serif;
     font-size: small;
     width: 59%;
+    padding-right: 5px;
   }
 
   .grid-container {
@@ -425,6 +429,7 @@ body {
     height: min-content;
     align-items: center;
     place-content: flex-end;
+    padding-right: 15%;
   }
 
   .upperpart img {
@@ -518,13 +523,18 @@ body {
 
   .nav-list img {
     width: 50px;
-    padding-left: 10px;
   }
 
   .menu-links {
     padding-right: 20px;
     text-decoration: none;
     color: black;
+  }
+
+  .about {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #ec5242;
   }
 
   .menu-links-project {
@@ -540,17 +550,24 @@ body {
     color: #ec5242;
     font-family: "LatoWebThin", sans-serif;
     vertical-align: baseline;
-    padding-right: 0;
     font-size: medium;
     font-weight: bolder;
   }
 
   .list-container {
     display: flex;
+    padding-right: 15%;
+    gap: 35px;
   }
 
   .list-container li {
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-list a {
+    padding-left: 15%;
   }
 
   .container-p {
@@ -561,7 +578,7 @@ body {
     width: 50%;
     text-align: justify;
     padding-left: 10px;
-    background-color: #272a315d;
+    background-color: #e8e8e9;
     margin-left: 15%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -707,6 +724,7 @@ body {
 
   .job {
     color: #ec5242;
+    font-style: italic;
   }
 
   .small-grey-line {
