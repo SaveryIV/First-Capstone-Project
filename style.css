@@ -511,7 +511,7 @@ body {
     width: 8vw;
     background-color: rgb(230, 230, 230);
     z-index: -1;
-    top: 0;
+    top: 35px;
     left: 3vw;
   }
 
@@ -554,7 +554,7 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 2vw;
-    padding-top: 1rem;
+    padding-top: 3rem;
   }
 
   .speaker-text {
