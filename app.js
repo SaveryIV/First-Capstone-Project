@@ -6,43 +6,43 @@ const $links = document.querySelectorAll('.menu-links');
 const performers = [{
   class: 'skrillex',
   name: 'Skrillex',
-  status: 'DJ, producer, Grammy winner; Dubstep pioneer, Bangarang, OWSLA founder.',
-  description: 'Sonny Moore, known as Skrillex, began as the lead vocalist of post-hardcore band From First to Last before transitioning to electronic music and revolutionizing the dubstep genre.',
-  image: 'sources/images/skrillex.jpg',
+  status: 'Lorem ipsum, Lorem ipsum, Lorem ipsum',
+  description: 'Lorem ipsum Lorem ipsum Lorem ipsum',
+  image: 'sources/images/skrillex2.jpg',
 }, {
   class: 'marshmello',
   name: 'Marshmello',
-  status: 'DJ, producer, masked identity; Happier, collaborations, EDM superstar.',
-  description: "With a mysterious persona, Marshmello's true identity remains undisclosed, adding an air of intrigue to his rise in the EDM world.",
-  image: 'sources/images/Marshmello2.jpg',
+  status: 'Lorem ipsum, Lorem ipsum, Lorem ipsum',
+  description: 'Lorem ipsum Lorem ipsum Lorem ipsum',
+  image: 'sources/images/Marshmello3.jpg',
 }, {
   id: 'id="ice"',
   class: 'ice',
   name: 'Ice Cube',
-  status: 'Rapper, actor, producer; N.W.A., Friday, Straight Outta Compton.',
-  description: 'Born in South Central Los Angeles, Ice Cube emerged from the gangsta rap scene, co-founding N.W.A. and becoming a prominent voice in West Coast hip-hop.',
-  image: 'sources/images/Ice Cube.jpg',
+  status: 'Lorem ipsum, Lorem ipsum, Lorem ipsum',
+  description: 'Lorem ipsum Lorem ipsum Lorem ipsum',
+  image: 'sources/images/Ice Cube2.jpg',
 }, {
   id: 'id="em"',
   class: 'eminem',
   name: 'Eminem',
-  status: 'Rapper, songwriter, record producer; The Marshall Mathers LP, Grammy winner.',
-  description: 'Hailing from Detroit, Eminem overcame a troubled upbringing to become a rap sensation, known for his raw and honest storytelling.',
-  image: 'sources/images/Eminem.jpg',
+  status: 'Lorem ipsum, Lorem ipsum, Lorem ipsum',
+  description: 'Lorem ipsum Lorem ipsum Lorem ipsum',
+  image: 'sources/images/Eminem2.jpg',
 }, {
   id: 'id="avi"',
   class: 'avicii',
   name: 'Avicii',
-  status: 'Swedish DJ, producer, and songwriter who revolutionized electronic music.',
-  description: ' Iconic Swedish DJ and music producer whose meteoric rise to fame revolutionized the electronic dance music scene, enchanting millions with his infectious beats, emotional compositions, and transcendent live shows, forever cementing his legacy as a visionary artist.',
+  status: 'Lorem ipsum, Lorem ipsum, Lorem ipsum',
+  description: 'Lorem ipsum Lorem ipsum Lorem ipsum',
   image: 'sources/images/Avicii.jpg',
 }, {
   id: 'id="post"',
   class: 'post',
   name: 'Post Malone',
-  status: 'Record-breaking rapper, singer-songwriter, and genre-bending music sensation.',
-  description: ' A boundary-breaking artist who effortlessly merges rap, rock, and pop, captivating audiences with chart-topping hits and a soulful voice. His genre-defying sound and introspective lyrics have solidified his position as a visionary force in modern music.',
-  image: 'sources/images/post-malone.jpg',
+  status: 'Lorem ipsum, Lorem ipsum, Lorem ipsum',
+  description: 'Lorem ipsum Lorem ipsum Lorem ipsum',
+  image: 'sources/images/post-malone2.jpg',
 }];
 
 const $artists = document.querySelector('.container-speakers');
@@ -50,9 +50,9 @@ const $artists = document.querySelector('.container-speakers');
 for (let i = 0; i < performers.length; i++) {
   $artists.innerHTML += `
         <div class="speaker" ${performers[i].id}>
-            <div class="${performers[i].class}">
+            <div class="square-container">
                 <div class="grey-square"></div>
-                <img src="${performers[i].image}" alt="${`${performers[i].name}-photo`}" class="img-speaker">
+                <img class="img-speaker" src="${performers[i].image}" alt="${`${performers[i].name}-photo`}">
             </div>
             <div class="speaker-text">
                 <h1>${performers[i].name}</h1>

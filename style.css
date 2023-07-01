@@ -279,20 +279,10 @@ body {
     margin-bottom: 20px;
   }
 
-  .grey-square {
-    width: 69px;
-    position: absolute;
-    height: 61px;
-    top: -15px;
-    left: 11px;
-    background-color: #d3d3d3;
-    z-index: -1;
-  }
-
   .speaker {
-    position: relative;
+    padding-left: 4vw;
     display: flex;
-    flex-direction: row;
+    gap: 3vw;
   }
 
   .skrillex {
@@ -456,6 +446,41 @@ body {
   .logo-desktop {
     display: none;
   }
+
+  .img-speaker {
+    width: 100%;
+    height: auto; /* To maintain aspect ratio */
+    align-self: flex-end;
+    border-radius: 10px;
+  }
+
+  .square-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    width: 30%;
+  }
+
+  .grey-square {
+    position: absolute;
+    height: 15vw;
+    width: 15vw;
+    background-color: rgb(230, 230, 230);
+    z-index: -1;
+    top: 0;
+    left: -2vw;
+  }
+
+  .container-speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -471,6 +496,29 @@ body {
     align-items: center;
     place-content: flex-end;
     padding-right: 15%;
+  }
+
+  .square-container {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .grey-square {
+    position: absolute;
+    height: 8vw;
+    width: 8vw;
+    background-color: rgb(230, 230, 230);
+    z-index: -1;
+    top: 0;
+    left: 3vw;
+  }
+
+  .img-speaker {
+    width: 12vw;
+    height: auto;
+    border-radius: 10px;
   }
 
   .upperpart img {
@@ -505,16 +553,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-
-  .grey-square {
-    width: 69px;
-    position: absolute;
-    height: 61px;
-    top: -15px;
-    left: 65px;
-    background-color: #d3d3d3;
-    z-index: -1;
+    gap: 2vw;
   }
 
   .speaker-text {
