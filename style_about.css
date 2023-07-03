@@ -1,0 +1,683 @@
+body {
+  font-family: "LatoWeb", sans-serif;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  .header {
+    background-color: #d3d3d375;
+    padding-bottom: 35px;
+    align-content: center;
+  }
+
+  .emoji1 {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+  }
+
+  .emoji2 {
+    position: absolute;
+    top: 68px;
+    right: 100px;
+    width: 45px;
+    transform: rotate(-17deg);
+  }
+
+  .emoji3 {
+    position: absolute;
+    top: 122px;
+    right: 16px;
+    width: 39px;
+    transform: rotate(23deg);
+  }
+
+  .emoji4 {
+    position: absolute;
+    top: 21px;
+    right: 157px;
+    width: 50px;
+    transform: rotate(-2deg);
+  }
+
+  .emoji5 {
+    position: absolute;
+    top: 58px;
+    right: 297px;
+    width: 26px;
+    transform: rotate(-23deg);
+  }
+
+  .emoji6 {
+    position: absolute;
+    top: 27px;
+    right: 249px;
+    width: 17px;
+    transform: rotate(-23deg);
+  }
+
+  .emoji7 {
+    position: absolute;
+    top: 66px;
+    right: 345px;
+    width: 26px;
+    transform: rotate(45deg);
+  }
+
+  .emoji8 {
+    position: absolute;
+    top: 6px;
+    right: 284px;
+    width: 30px;
+    transform: rotate(-32deg);
+  }
+
+  .emoji9 {
+    position: absolute;
+    right: 41px;
+    width: 50px;
+    transform: rotate(-12deg);
+    bottom: 79px;
+  }
+
+  .emoji10 {
+    position: absolute;
+    right: 275px;
+    width: 40px;
+    transform: rotate(12deg);
+    bottom: 54px;
+  }
+
+  .background-image {
+    position: relative;
+    padding-bottom: 40px;
+    margin-right: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.486);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    backdrop-filter: blur(2px);
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .nav-list li {
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+
+  .nav-list a {
+    font-size: x-large;
+    color: #ec5242;
+    font-family: "LatoWebBlack", sans-serif;
+    text-decoration: none;
+  }
+
+  footer img {
+    width: 20%;
+    height: 20%;
+    margin-left: 20px;
+  }
+
+  .nav-list img {
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 82%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .hamburger {
+    padding-top: 10px;
+    width: 30px;
+    padding-right: 80%;
+  }
+
+  .header-h1 {
+    font-family: "LatoWebBlack", sans-serif;
+    margin-top: 0;
+    color: #ec5242;
+  }
+
+  .container-p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-p {
+    border: 5px solid white;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #d3d3d363;
+    font-family: "LatoWebThin", sans-serif;
+    font-weight: bold;
+    width: 90%;
+    height: auto;
+  }
+
+  .email {
+    padding-left: 5%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "LatoWebThin", sans-serif;
+    font-weight: bold;
+    width: 90%;
+    height: auto;
+  }
+
+  .frst-p-container {
+    position: relative;
+    width: 60%;
+    height: 20%;
+  }
+
+  .background-image-about {
+    margin-right: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .overlay {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("sources/images/background-hype-party.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: hue-rotate(-196deg) brightness(1);
+  }
+
+  .overlay-2 {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("sources/images/background-transition.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: hue-rotate(-196deg) brightness(0.9);
+  }
+
+  .navbar {
+    padding-left: 10px;
+  }
+
+  .navbar-about {
+    padding-right: 85%;
+  }
+
+  .logo-container {
+    border: 1px solid #d3d3d3a8;
+    width: 85%;
+    margin-left: 6%;
+  }
+
+  .header-h2-title {
+    font-family: "LatoWebThin", sans-serif;
+    padding-top: 35px;
+    margin-bottom: 0;
+    color: #ec5242;
+  }
+
+  .header-h1-title {
+    font-family: "LatoWebBlack", sans-serif;
+    margin-top: 0;
+    color: #ec5242;
+  }
+
+  .header-h2 {
+    font-family: "LatoWebThin", sans-serif;
+    padding-top: 35px;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .emoji1-about {
+    position: absolute;
+    top: 71px;
+    right: 71px;
+    width: 30px;
+    transform: rotate(45deg);
+  }
+
+  .emoji2-about {
+    position: absolute;
+    top: 28px;
+    right: 278px;
+    width: 35px;
+    transform: rotate(-17deg);
+  }
+
+  .emoji3-about {
+    z-index: -1;
+    position: absolute;
+    top: 205px;
+    right: 5px;
+    width: 39px;
+    transform: rotate(30deg);
+  }
+
+  .emoji4-about {
+    position: absolute;
+    top: 203px;
+    right: 291px;
+    width: 50px;
+    z-index: -1;
+  }
+
+  .emoji5-about {
+    z-index: -1;
+    position: absolute;
+    top: 163px;
+    right: 344px;
+    width: 28px;
+    transform: rotate(-23deg);
+  }
+
+  /* .emoji6 {
+    position: absolute;
+    top: 27px;
+    right: 249px;
+    width: 17px;
+    transform: rotate(-23deg);
+  }
+
+  .emoji7 {
+    position: absolute;
+    top: 66px;
+    right: 345px;
+    width: 26px;
+    transform: rotate(45deg);
+  }
+
+  .emoji8 {
+    position: absolute;
+    top: 6px;
+    right: 284px;
+    width: 30px;
+    transform: rotate(-32deg);
+  }
+
+  .emoji9 {
+    position: absolute;
+    right: 41px;
+    width: 50px;
+    transform: rotate(-12deg);
+    bottom: 79px;
+  }
+
+  .emoji10 {
+    position: absolute;
+    right: 275px;
+    width: 40px;
+    transform: rotate(12deg);
+    bottom: 54px;
+  } */
+
+  .partners-container {
+    background-color: #272a31;
+  }
+
+  main h2 {
+    margin-bottom: 10px;
+  }
+
+  .partners-container h2 {
+    color: white;
+    padding-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .partner {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .partners2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .orange-line {
+    width: 2rem;
+    height: 3px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    place-items: center;
+    margin-top: 20px;
+  }
+
+  footer div {
+    text-align: left;
+    margin-right: 22px;
+    align-self: baseline;
+    margin-left: 10px;
+  }
+
+  main h3 {
+    font-family: "LatoWebThin", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  footer div h3 {
+    font-family: "LatoWebThin", sans-serif;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  footer div h4 {
+    font-family: "LatoWebThin", sans-serif;
+    font-size: small;
+    font-weight: 900;
+    margin-top: 0;
+  }
+
+  .nav-list-desktop {
+    display: none;
+  }
+
+  .upperpart {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #stickers {
+    display: none;
+  }
+
+  .upperpart {
+    display: flex;
+    flex-direction: row;
+    background-color: #272a31;
+    height: min-content;
+    align-items: center;
+    place-content: flex-end;
+    padding-right: 5%;
+  }
+
+  footer img {
+    padding-left: 150px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .upperpart img {
+    width: 30px;
+    padding-right: 20px;
+  }
+
+  footer h4 {
+    margin-top: 5px;
+    color: white;
+    font-family: "LatoWeb", sans-serif;
+    font-weight: 500;
+  }
+
+  .upperpart h4 {
+    color: white;
+    font-family: "LatoWebThin", sans-serif;
+    font-size: small;
+    margin-right: 25px;
+  }
+
+  .header {
+    background-color: #d3d3d3a8;
+    border-bottom: 1px solid #272a312f;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .close-hamburger {
+    display: none;
+  }
+
+  .nav-list-desktop {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #272a312f;
+    background-color: white;
+    margin-top: 0;
+  }
+
+  .nav-list-desktop img {
+    width: 50px;
+  }
+
+  .container-logo {
+    padding-left: 15%;
+  }
+
+  .navbar-about {
+    display: none;
+  }
+
+  .menu-links {
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-right: 5%;
+  }
+
+  .menu-links-project {
+    text-decoration: none;
+    border: 3px solid #ec5242;
+    height: 30px;
+    margin-right: 20px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-links-project a {
+    color: #ec5242;
+    font-family: "LatoWebThin", sans-serif;
+    vertical-align: baseline;
+    padding-right: 0;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  .header-h2-title {
+    color: #ec5242;
+    padding-top: 100px;
+    font-family: "LatoWebThin", sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .header-h1-title {
+    color: #d72311;
+    display: flex;
+    justify-content: center;
+    font-family: "LatoWebBlack", sans-serif;
+    font-size: xxx-large;
+  }
+
+  .header-p {
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #272a315d;
+    margin: auto;
+  }
+
+  .email {
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 40px;
+  }
+
+  footer {
+    margin-top: 100px;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+  }
+
+  footer div {
+    margin-left: 20px;
+    align-content: center;
+    text-align: left !important;
+  }
+
+  footer h3 {
+    color: white;
+    font-family: "LatoWeb", sans-serif !important;
+    font-weight: 500 !important;
+    margin-bottom: 5px;
+  }
+
+  .main {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .orange-line {
+    width: 2rem;
+    height: 3px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .main h3 {
+    font-family: "LatoWebThin", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .logo-container {
+    border: 1px solid #d3d3d3a8;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .background-image {
+    padding-bottom: 40px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    text-align: center;
+  }
+
+  .partners-container {
+    display: none;
+  }
+
+  .header-h2 {
+    font-family: "LatoWebThin", sans-serif;
+    padding-top: 35px;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  .header-h1 {
+    font-family: "LatoWebBlack", sans-serif;
+    margin-top: 0;
+    color: white;
+  }
+
+  .overlay {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(sources/images/background-hype-party.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: hue-rotate(-196deg) brightness(1);
+  }
+
+  .overlay-2 {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(sources/images/background-transition.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: hue-rotate(-196deg) brightness(0.9);
+  }
+
+  .desktop-background-image-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    width: 90%;
+  }
+
+  hr {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+}
